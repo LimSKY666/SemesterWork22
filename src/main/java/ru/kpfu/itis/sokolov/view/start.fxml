@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kpfu.itis.sokolov.controller.StartController">
+    <children>
+        <Button layoutX="290.0" layoutY="304.0" mnemonicParsing="false" onAction="#createGameBtnTapped" prefHeight="71.0" prefWidth="295.0" style="-fx-background-color: black; -fx-border-color: white;" text="Create game" textFill="WHITE">
+            <font>
+                <Font name="Courier New" size="24.0" />
+            </font>
+        </Button>
+        <TextField fx:id="portInput" layoutX="290.0" layoutY="374.0" prefHeight="56.0" prefWidth="193.0" promptText="PORT" style="-fx-background-color: black; -fx-border-color: white;">
+            <font>
+                <Font name="Courier New" size="21.0" />
+            </font>
+        </TextField>
+        <Button layoutX="480.0" layoutY="374.0" mnemonicParsing="false" onAction="#joinToGameBtnTapped" prefHeight="56.0" prefWidth="105.0" style="-fx-background-color: black; -fx-border-color: white;" text="Connect" textFill="WHITE">
+            <font>
+                <Font name="Courier New" size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="290.0" layoutY="429.0" mnemonicParsing="false" onAction="#trainingBtnTapped" prefHeight="71.0" prefWidth="295.0" style="-fx-background-color: black; -fx-border-color: white;" text="Training" textFill="WHITE">
+            <font>
+                <Font name="Courier New" size="24.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
